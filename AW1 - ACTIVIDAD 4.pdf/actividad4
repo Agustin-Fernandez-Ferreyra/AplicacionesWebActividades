@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Primer Documento HTML - Estructura, Jerarquía e Index</title>
+</head>
+<body>
+
+  <!-- Encabezado principal del sitio -->
+  <header>
+    <h1>Mi Sitio Web Informativo</h1>
+    <p>Bienvenido a nuestro portal de aprendizaje.</p>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+
+    <!-- Primera sección de contenido -->
+    <section>
+      <h2>Guía de Inicio Rápido</h2>
+      <p>Aprender la estructura HTML es el primer paso para desarrollarse en la web.</p>
+      
+      <h3>Pasos recomendados</h3>
+      <ol>
+        <li>Comprender la estructura básica.</li>
+        <li>Practicar la jerarquía de encabezados.</li>
+        <li>Aplicar estilos CSS.</li>
+      </ol>
+    </section>
+
+    <!-- Segunda sección de contenido -->
+    <section>
+      <h2>Preguntas Frecuentes</h2>
+      
+      <h3>¿Es difícil aprender HTML?</h3>
+      <p>No, es un lenguaje de marcado intuitivo y muy fácil de dominar.</p>
+    </section>
+
+    <!-- Tercera sección: Explicación sobre el archivo index.html -->
+    <section>
+      <h2>¿Por qué este archivo debe llamarse 'index.html'?</h2>
+      
+      <!--
+        ======================================================================
+        IMPORTANCIA DEL NOMBRE 'index.html':
+        
+        1. PUNTO DE ENTRADA AUTOMÁTICO:
+           Los servidores web (Apache, Nginx, IIS) buscan por defecto un archivo
+           llamado 'index.html' o 'index.php' dentro de la carpeta raíz al recibir
+           una petición a un dominio (ej. www.misitio.com).
+
+        2. EVITA URLS COMPLEJAS Y ERRORES 404:
+           Si el archivo se llamara "inicio.html", el usuario tendría que escribir
+           "www.misitio.com/inicio.html". Al llamarlo "index.html", basta con entrar
+           al dominio principal. Si no existe, el servidor puede arrojar error 404.
+
+        3. SEGURIDAD DEL SERVIDOR:
+           Sin un archivo 'index.html', algunos servidores muestran el listado público
+           de archivos de la carpeta ("Directory Browsing"), exponiendo la estructura
+           y archivos privados del proyecto.
+
+        4. ESTÁNDAR Y BUENAS PRÁCTICAS:
+           Facilita el trabajo en equipo, la integración con despliegues (Vercel,
+           GitHub Pages, Hostinger) y la mantenibilidad del código.
+        ======================================================================
+      -->
+
+      <h3>Puntos clave:</h3>
+      <ul>
+        <li><strong>Punto de entrada:</strong> Es el primer archivo que busca y sirve el servidor web automáticamente.</li>
+        <li><strong>URLs limpias:</strong> Permite ingresar al sitio web usando solo el nombre de dominio.</li>
+        <li><strong>Seguridad:</strong> Previene que el servidor muestre el listado público de la carpeta del proyecto.</li>
+        <li><strong>Estándar de la industria:</strong> Es la convención universal en el desarrollo web.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
