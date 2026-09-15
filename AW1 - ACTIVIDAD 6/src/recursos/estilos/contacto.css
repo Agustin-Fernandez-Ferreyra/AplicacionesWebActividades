@@ -9,7 +9,6 @@
     src: url('./fuentes/GermaniaOne-Regular.ttf');
 }
 
-
 body {
     background-color: rgb(203, 206, 168);
     font-family: sans-serif;
@@ -23,7 +22,6 @@ a {
 ul {
     list-style: none;
 }
-
 
 .encabezado-principal {
     background-color: rgb(71, 36, 0);
@@ -39,6 +37,7 @@ ul {
 .encabezado-principal nav a {
     margin-right: 15px;
 }
+
 
 .contenido-principal {
     padding: 20px;
