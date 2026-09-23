@@ -1,0 +1,110 @@
+/* Generico */
+*{
+    box-sizing: border-box;
+}
+
+/* Reset */
+html,body,h1,h2,h3,ul{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Cabecera */
+
+.cabecera-principal{
+    padding: 20px;
+    background-color: #333333;
+    border-bottom: 3px solid #8b5e3c;
+}
+
+.cabecera-principal h1{
+    color: #ffffff;
+}
+
+.cabecera-principal nav{
+    width: 100%;
+    padding: 15px;
+    background-color: #555555;
+}
+
+.cabecera-principal nav a{
+    padding: 10px;
+}
+
+/* Contenido principal */
+
+.contenido-principal{
+    padding: 20px;
+    background-color: #eeeeee;
+}
+
+.contenido-principal section{
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+h2{
+    color: #8b5e3c;
+}
+
+h3{
+    color: #555555;
+}
+
+p{
+    margin: 10px;
+}
+
+/* Servicios */
+
+.contenido-principal li{
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Formulario */
+
+.contenido-principal form{
+    padding: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+.contenido-principal form input{
+    padding: 8px;
+}
+
+.contenido-principal form textarea{
+    display: block;
+    width: 100%;
+}
+
+.contenido-principal form select{
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+
+.contenido-principal form input[type="submit"]{
+    background-color: #8b5e3c;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 10px;
+}
